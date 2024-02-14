@@ -1,0 +1,145 @@
+/* CSS Document */
+
+/*CSS RESET*/
+
+body, nav, header, main, footer, h1, div, img, ul, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*BODY*/
+
+h1 {
+	color: #fff;
+	-webkit-text-stroke: .2px red;
+	text-align: center;
+}
+
+h2 {
+	color: #fff;
+	-webkit-text-stroke: .2px red;
+	text-align: center;
+}
+
+p {
+	color: #fff;
+}
+
+main {
+	padding: 2em;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+body {
+	background-color: #000;
+	font-family: 'EB Garamond';
+}
+
+/*NAV*/
+
+nav {
+	background: rgb(36,0,0);
+	background: linear-gradient(0deg, rgba(36,0,0,1) 0%, rgba(121,9,26,1) 25%, rgba(255,0,0,1) 100%);
+}
+
+nav a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 0 2em;
+}
+
+a:hover {
+	color: #000;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding: 0 0 2em;
+}
+
+/*FORM*/
+
+blockquote {
+	font-size: 3em;
+	color: #fff;
+	-webkit-text-stroke: .2px red;
+	text-align: center;
+}
+
+form img {
+	max-width: 100%;
+	padding: 2em 0;
+}
+
+input {
+	height: 2em;
+	width: 10em;
+	background-color: rgba(123,19,21,1.00);
+	color: #fff;
+	border: 2px solid #FFFFFF;
+}
+
+.frmButton {
+	width: 10em;
+	background-color: #000;
+	color: #fff;
+}
+
+.frmButton:hover {
+	background-color:#970002 ;
+}
+
+#container p {
+	text-align: center;
+}
+
+/*IMGS*/
+
+.main-images {
+	padding: 2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.robloxLogo {
+	max-width: 15em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Footer*/
+
+footer {
+	background: rgb(36,0,0);
+	background: linear-gradient(0deg, rgba(36,0,0,1) 0%, rgba(121,9,26,1) 70%, rgba(255,0,0,1) 100%);
+	padding: 2em;
+}
+
+footer p {
+	text-align: center;
+	font-size: 1em;
+}
+
+.footerNav a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerNav a:hover {
+	color: #000;
+}
